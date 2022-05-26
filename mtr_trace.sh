@@ -2,7 +2,7 @@ echo -e "\n该小工具可以为你检查本服务器到中国湖北、佛山、
 read -p "按Enter(回车)开始启动检查..." sdad
 
 iplise=(121.62.220.1 211.91.152.97 223.75.42.249 27.40.26.82 58.60.188.222 210.21.196.6 120.196.165.24)
-iplocal=(黄冈电信 黄冈联通 黄冈移动 佛山联通 深圳电信 深圳联通 深圳移动)
+iplocal=(湖北电信 湖北联通 湖北移动 佛山联通 深圳电信 深圳联通 深圳移动)
 echo "开始安装mtr命令..."
 apt update -y && apt install mtr -y
 yum clean all && yum makecache && yum install mtr -y
